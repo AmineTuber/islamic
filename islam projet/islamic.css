@@ -1,0 +1,41 @@
+#titre{
+      
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    padding-left: 600px;
+    padding-right: 200px;
+  ;top: 0px;
+  flex-flow: nowrap;
+  
+  
+}
+#titre ul li {
+    display: inline;
+    margin-right:80px;
+    
+}
+#titre .nava{ text-decoration: none;
+color:black;
+}
+
+#titre .nava:hover{
+    color:#fca400 ;
+    
+ }
+ #searchbar{
+    margin-left: 32%;
+    padding:20px;
+    border-radius: 20px;
+    margin-top: 2%;
+    color: aqua;
+  }
+
+  input[type=text] {
+     width: 25%;
+     -webkit-transition: width 0.15s ease-in-out;
+     transition: width 0.15s ease-in-out;
+       }
+
+  
+     
